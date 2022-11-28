@@ -3,29 +3,27 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css"> 
+    <script src="app.js"></script>
 </head>
 
 <body>
+    <div class="topleft">
+        <div id="menu_button">
+            <input type="checkbox" id="menu_checkbox">
+            <label for="menu_checkbox" id="menu_label" >
+              <div id="menu_text_bar" onclick="openNav()"></div>
+            </label>
+        </div>
+    </div>
     <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
+            <a href="roster.html">Kodu</a>
             <a href="ajalugu.html">Ajalugu</a>
             <a href="kaksrosterit.html">Kaks rösterit</a>
             <a href="rostid.html">Röstid</a>
         </div>
     </div>
-    
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9898; Menüü</span>
-    
-    <script>
-    function openNav() {
-        document.getElementById("myNav").style.display = "flex";
-    }
-    
-    function closeNav() {
-        document.getElementById("myNav").style.display = "none";
-    }
-    </script>
         
   </body>
   </html>

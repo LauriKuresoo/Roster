@@ -5,30 +5,28 @@
     <link rel="stylesheet" href="style.css"> 
     <meta charset="utf-8">
     <title>Ajalugu</title>
+    <script src="app.js"></script>
 </head>
 
 <body style="background-color:azure ;">
+    <div class="topleft">
+        <div id="menu_button">
+            <input type="checkbox" id="menu_checkbox">
+            <label for="menu_checkbox" id="menu_label" >
+              <div id="menu_text_bar" onclick="openNav()"></div>
+            </label>
+        </div>
+    </div>
     <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
+            <a href="roster.html">Kodu</a>
             <a href="ajalugu.html">Ajalugu</a>
             <a href="kaksrosterit.html">Kaks rösterit</a>
             <a href="rostid.html">Röstid</a>
         </div>
     </div>
     
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9898; Menüü</span>
-    
-    <script>
-    function openNav() {
-        document.getElementById("myNav").style.display = "flex";
-    }
-    
-    function closeNav() {
-        document.getElementById("myNav").style.display = "none";
-    }
-    </script>
-      
     <h1><center>Ajalugu</center></h1>
     <div class ="box1"; style = "position:relative; top:5px; left:20px;float: left; clear: left"><center>
         Röstimine meetodina oli eeksmärgiga leiva kauemaks säilitamiseks. Esialgu röstiti leiba lahtise tule kohal. Esimene röster leiutati Iirimaal aastal 1893 Alan MacMasters'i poolt. Esialgne röster leiutati uuesti Ameerikas Frank Shailor'i poolt, kes ka selle patentis.Selline esialgne röster aga küpsetas leiba ainult ühelt poolt, kuid siiski sai seda juba kodudesse paigaldada. Aastal 1915 järnes versioon, mis iseseisvalt pööras leiba ning aastal 1919 leiutati tänapäevane ja tuttav versioon, kus leib "hüppab üles".
