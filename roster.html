@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css"> 
-
+    <title>Ajalugu</title>
     <script src="app.js"></script>
 </head>
 <body>
@@ -21,13 +22,12 @@
         <div class="overlay-content">
             <a href="roster.html">Kodu</a>
             <a href="ajalugu.html">Ajalugu</a>
-            <a href="kaksrosterit.html">Kaks rösterit</a>
             <a href="rostid.html">Röstid</a>
         </div>
     </div>
-    <img id="slice" src="slice.png" draggable="true" ondragstart="drag(event)" height="200px" width="200px">
+    <img id="slice" src="slice.png" alt="slice" draggable="true" ondragstart="drag(event)" height="200" width="200">
     <div class="center">
-       <img id="toaster" src="toasterEmpty.png" ondrop="drop(event)" ondragover="allowDrop(event)" height="186px" width="300px">
+       <img id="toaster" src="toasterEmpty.png" alt="toaster" ondrop="drop(event)" ondragover="allowDrop(event)" height="186" width="300">
        <div id="play-on-hover"></div>
     </div>
   </body>

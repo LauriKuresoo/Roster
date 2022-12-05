@@ -1,9 +1,32 @@
 .box1 {
-    flex: 1 1 50%;
+    width: 90vw;
+    height: 15vw;
     border: 3px solid black;
 }
 
-
+  h3 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding: 10px;
+  }
+  
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  *:focus {
+    outline: none;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    background-color: #ffffff;
+  }
+  
 img {
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -16,7 +39,9 @@ img {
 }
 
 .keskel {
-    left:300px;
+    padding:30px;
+    text-align: center;
+    
 }
 
 .imgkeskel {
